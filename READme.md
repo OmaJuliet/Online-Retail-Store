@@ -6,7 +6,7 @@ This project explores online retail store sales data to uncover purchasing patte
 
 ## Dataset
 Source: Tata on Forage
-Original dataset: Online Retail.xlsx
+Original dataset: Online_Retail.xlsx
 
 
 ## Data Cleaning & Preparation (Excel)
@@ -50,7 +50,7 @@ All the  column names were already standardized for consistentency.
 
 
 ## Final Cleaned Dataset:
-Cleaned dataset file: Cleaned Online Retail Store Dataset.xlsx
+Cleaned dataset file: Cleaned_Online_Retail_Dataset.xlsx
 
 
 ## Exploratory Data Analysis (EDA) & Insights (Power BI)
@@ -61,24 +61,28 @@ Cleaned dataset file: Cleaned Online Retail Store Dataset.xlsx
 - Total customers
 
 **1. Sales Performance Trends**
+
 📌 How do revenue fluctuate over time?
 💡 Insight: The highest revenue weas recorded during Q4, with October(0.98M) and November(1.10M) showing significant spikes probably due to holiday shopping.
 
 📊 Visualization: Line Chart (Monthly Revenue Trends)
 
 **2. Top 10 Revenue-Generating Countries**
+
 📌 Which country generates the most revenue? And contributes the most to sales?
 💡 Insight: UK generated the most revenue, but excluding UK, we have the top 10 revenue generating countries as Netherlands, EIRE, Germany, France, Australia, Spain, Switzerland, Belgium, Sweden, and finally, Japan.
 
 📊 Visualization: Clustered Column Chart (Countries Contribution to Revenue)
 
 **3. Top 10 Customers by Revenue**
+
 📌 Who are the most valuable customers? The top 10 customers by revenue
 💡 Insight: Customer with the IDs 14646, 18102, 17450, 16446, 14911, 12415, 14156, 17511, 12346, and 16029 were the top 10 customers by revenue contributed.
 
 📊 Visualization: Bar Chart (Customer Contribution to Revenue)
 
 **4. Customer Segmentation**
+
 📌 How do customers contribute to revenue by number of transactions made?
 💡 Insight: The number of transactions per customers does not directly impact the total amount of revenue generated from them. For example, customer with ID of 14096 had a total of 2,741 transactions worth $41,621, while customer with ID had a total of 1,932 worth $279,678.
 
@@ -87,6 +91,7 @@ Cleaned dataset file: Cleaned Online Retail Store Dataset.xlsx
 📊 Visualization: Table (Customer ID, Number of Transactions, Revenue)
 
 **5. Revenue Contribution by Region**
+
 📌 Which region has the most sales excluding Europe?
 💡 Insight: Asides European countries, Asia-Pacific was the region that has the most sales with 90.18% totalling $115k, while the rest went to other regions: Middle East & Africa, North America, and Suth America.
 
@@ -107,6 +112,7 @@ Region = SWITCH(
 📊 Visualization: Pie Chart (Region by Quantity)
 
 **6. Top 10 Countries by Average Order Value**
+
 📌 What is the average order for each country?
 💡 Insight: The top 10 countries by average order value were: Netherlands, Australia, Japan, Singapore, Lebanon, Israel, Brazil, Switzerland, Sweden, and Norway.
 
@@ -123,14 +129,15 @@ Region = SWITCH(
 - Expand international reach and focus marketing efforts on Middle East & Africa, North America, and Suth America to increase international patronage and sales.
 
 ## Dashboard Pages 👇
-![Online Retail Store Analysis Dashboard Page 1](Online retail store dashboard 1.png) 
-![Online Retail Store Analysis Dashboard Page 2](Online retail store dashboard 2.png) 
-![Online Retail Store Analysis Dashboard Page 3](Online retail store dashboard 3.png) 
+![Online Retail Store Analysis Dashboard Page 1](Online-retail-store-dashboard-1.png) 
+
+![Online Retail Store Analysis Dashboard Page 2](Online-retail-store-dashboard-2.png) 
+![Online Retail Store Analysis Dashboard Page 3](Online-retail-store-dashboard-3.png) 
 
 
 ### Full report👇
-PBIX File: ![Online Retail Store Analysis](Retail Store Dashboard.pbix)
-PDF File: ![Online Retail Store Analysis](Retail Store Dashboard.pdf)
+PBIX File: ![Online Retail Store Analysis](Retail-Store-Dashboard.pbix)
+PDF File: ![Online Retail Store Analysis](Retail-Store-Dashboard.pdf)
 
 
 ## 💾Final Thoughts
